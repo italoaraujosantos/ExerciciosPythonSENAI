@@ -1,0 +1,7 @@
+A = 8
+B = 4
+A = B  A = 4
+B = A + 5  b= 9
+print("Valor de A:", A)  4
+print("Valor de B:", B)  9
+
