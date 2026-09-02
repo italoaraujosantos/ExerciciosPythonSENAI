@@ -1,4 +1,5 @@
 from enum import Enum
+
 class PlanoSaude(Enum):
     TRUE = 1
     FALSE = 0
