@@ -1,0 +1,8 @@
+print("Formulario Hospital")
+nome = input("Digite o seu nome: ")
+idade = input("Digite sua idade: ")
+peso = input("Digite sua peso: ")
+print("Nome: ", nome)
+print("Idade: ", idade)
+print("Peso: ", peso)
+print(f"Doação de sangue: {idade >=16 and idade<= 65 and peso >=16 and peso <= 50}")
