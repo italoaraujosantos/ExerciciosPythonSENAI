@@ -3,19 +3,7 @@ Resume: Crie uma lista que armazene um numero x de funcionários. Usando o while
     Com o For, imprima duas listas:
     Uma lista com todos os que redeberão um aumento. Outra lista com os funcionarios que serão demitidos.
     Decida qual funcionario sera demitido ou recebera um aumento pelo index do funcionario lista[]
-
 """
-
-
-funcionarios = [
-    {
-        "nome": [],
-        "produtividade": [],
-        "demissao": [],
-        "salario": []
-    }
-]
-
 funcionarios = [
     {
         "nome": "Carlos",
