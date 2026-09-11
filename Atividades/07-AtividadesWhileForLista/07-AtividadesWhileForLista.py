@@ -51,7 +51,7 @@ funcionarios = [
 
 for funcionario in funcionarios:
     if funcionario["demissao"] == False:
-        promovidos = funcionario.index(funcionario["salario"]*1.15)
+        promovidos = funcionario["salario"]*1.15
     else:
         demitidos = funcionarios
 
