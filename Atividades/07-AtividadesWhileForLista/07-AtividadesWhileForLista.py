@@ -20,7 +20,7 @@ funcionarios = [
     {
         "nome": "João",
         "produtividade": 67,
-        "demissao": True,
+        "demissao": False,
         "salario": 2800.00
     },
     {
@@ -41,10 +41,11 @@ promovidos =[]
 demitidos = []
 
 for funcionario in funcionarios:
-    if funcionario["produtividade"] >= 80:
+    if funcionario["produtividade"] >= 75:
         funcionario["salario"] = funcionario["salario"] * 1.15
         promovidos.append(funcionario)
     else:
+        funcionario["demissao"] = True
         demitidos.append(funcionario)
 
 for promovido in promovidos:
