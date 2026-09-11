@@ -53,15 +53,15 @@ promovidos =[]
 demitidos = []
 
 for funcionario in funcionarios:
-    if funcionario["demissao"] == False:
-        promovidos.append(funcionario["salario"]*1.15)
+    if funcionario.demissao == False:
+        promovidos.append(funcionario.salario*1.15)
     else:
         demitidos.append(funcionario)
 
     print("Lista Promovidos:")
     for promovido in promovidos:
-        print(f"Nome: {promovido.get('nome')} Salario: {promovido.get('salario')}")
+        print(f"Nome: {promovido.nome} Salario: {promovido.salario}")
 
     print("Lista Demitidos:")
     for demitido in demitidos:
-        print(f"Demitido: {demitido.get('nome')}")
+        print(f"Demitido: {demitido.nome}")
