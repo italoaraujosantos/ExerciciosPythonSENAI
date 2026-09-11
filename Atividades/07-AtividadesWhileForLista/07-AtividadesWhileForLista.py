@@ -60,7 +60,7 @@ for funcionario in funcionarios:
 
     print("Lista Promovidos:")
     for promovido in promovidos:
-        print(f"{Nome: promovido.get('nome')} Salario: {promovido.get('salario')}")
+        print(f"Nome: {promovido.get('nome')} Salario: {promovido.get('salario')}")
 
     print("Lista Demitidos:")
     for demitido in demitidos:
