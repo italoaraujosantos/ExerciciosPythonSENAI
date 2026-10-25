@@ -1,0 +1,9 @@
+RECIBO DE COMPRA
+=================
+Cliente: Exemplo
+
+Produtos:
+- Caderno: R$ 15.90
+- Caneta: R$ 3.50
+
+TOTAL: R$ 19.40
